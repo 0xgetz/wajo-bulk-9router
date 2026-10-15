@@ -1,5 +1,7 @@
 # wajo·bulk·9router
 
+<img src="brand/logo.svg" alt="wajo-bulk-9router" width="520">
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg?style=flat-square)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D18-3c873a.svg?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org)
 [![Dependencies](https://img.shields.io/badge/dependencies-0-111.svg?style=flat-square)](#)
