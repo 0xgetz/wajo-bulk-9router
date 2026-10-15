@@ -1,0 +1,33 @@
+{
+  "name": "wajo-bulk-9router",
+  "version": "1.0.0",
+  "description": "Bulk-create Wajo AI accounts and serve them as one OpenAI-compatible endpoint on 9Router.",
+  "type": "commonjs",
+  "main": "src/adapter.js",
+  "bin": {
+    "wajo-bulk": "src/cli.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "create": "node src/cli.js create",
+    "serve": "node src/adapter.js",
+    "connect": "node src/cli.js connect",
+    "verify": "node src/cli.js verify",
+    "models": "node src/cli.js models"
+  },
+  "keywords": [
+    "wajo",
+    "9router",
+    "openai",
+    "openai-compatible",
+    "bulk-accounts",
+    "llm",
+    "fo-agent",
+    "pool",
+    "load-balancer"
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}

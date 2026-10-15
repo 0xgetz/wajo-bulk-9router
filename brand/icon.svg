@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="wajo-bulk-9router icon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#312e81"/>
+      <stop offset="0.5" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#0891b2"/>
+    </linearGradient>
+    <linearGradient id="bub" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c7d2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <g transform="translate(128,120)">
+    <path d="M0 40c0-22 18-40 40-40h144c22 0 40 18 40 40v88c0 22-18 40-40 40H104l-56 52v-52H40c-22 0-40-18-40-40z" fill="url(#bub)"/>
+    <circle cx="70" cy="84" r="17" fill="#4338ca"/>
+    <circle cx="124" cy="84" r="17" fill="#6366f1"/>
+    <circle cx="178" cy="84" r="17" fill="#8b5cf6"/>
+  </g>
+  <path d="M300 372l40 40M300 372l16 60M300 372l60 24" stroke="#e0f2fe" stroke-width="12" stroke-linecap="round" fill="none"/>
+</svg>

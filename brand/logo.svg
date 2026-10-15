@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 160" width="720" height="160" role="img" aria-label="wajo-bulk-9router">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="0.55" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef2ff"/>
+      <stop offset="1" stop-color="#c7d2fe"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="720" height="160" rx="0" fill="#0b0b12"/>
+  <!-- mark: a chat bubble feeding a router node -->
+  <g transform="translate(28,26)">
+    <rect x="0" y="0" width="108" height="108" rx="24" fill="url(#g)" opacity="0.16"/>
+    <rect x="6" y="6" width="96" height="96" rx="20" fill="none" stroke="url(#g)" stroke-width="2" opacity="0.5"/>
+    <!-- bubble -->
+    <path d="M24 34c0-6 5-11 11-11h34c6 0 11 5 11 11v20c0 6-5 11-11 11H45l-13 12V65h-3c-6 0-11-5-11-11z" fill="url(#g2)"/>
+    <!-- three dots = tokens -->
+    <circle cx="42" cy="44" r="4.4" fill="#4338ca"/>
+    <circle cx="55" cy="44" r="4.4" fill="#6366f1"/>
+    <circle cx="68" cy="44" r="4.4" fill="#8b5cf6"/>
+    <!-- routes fanning out -->
+    <path d="M72 78l14 14M72 78l6 20M72 78l20 8" stroke="url(#g)" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="168" y="72" font-family="Inter,Segoe UI,system-ui,sans-serif" font-size="40" font-weight="800" fill="#f8fafc">wajo<tspan fill="#a5b4fc">·</tspan>bulk<tspan fill="#a5b4fc">·</tspan>9router</text>
+  <text x="169" y="104" font-family="Inter,Segoe UI,system-ui,sans-serif" font-size="17" font-weight="500" fill="#94a3b8">Bulk Wajo AI accounts → one OpenAI-compatible endpoint on 9Router</text>
+</svg>
